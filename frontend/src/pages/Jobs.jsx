@@ -177,7 +177,7 @@ const Jobs = () => {
                         <span>📍 {job.location}</span>
                         <span>💼 {job.jobType}</span>
                         <span>
-                          💰 ${job.salaryRange.min}K - ${job.salaryRange.max}K
+                          💰 ₹{job.salaryRange.min}K - ₹{job.salaryRange.max}K
                         </span>
                       </div>
                       <span className="btn btn-primary text-sm">View Details</span>

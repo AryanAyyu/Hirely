@@ -96,7 +96,7 @@ const JobDetail = () => {
           <span>📍 {job.location}</span>
           <span>💼 {job.jobType}</span>
           <span>
-            💰 ${job.salaryRange.min}K - ${job.salaryRange.max}K
+            💰 ₹{job.salaryRange.min}K - ₹{job.salaryRange.max}K
           </span>
         </div>
 
