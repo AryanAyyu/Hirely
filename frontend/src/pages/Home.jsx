@@ -62,7 +62,7 @@ const Home = () => {
                   <div className="flex justify-between items-center">
                     <span className="text-gray-600 dark:text-gray-400">{job.location}</span>
                     <span className="font-semibold">
-                      ${job.salaryRange.min}K - ${job.salaryRange.max}K
+                      ₹{job.salaryRange.min} - ₹{job.salaryRange.max}
                     </span>
                   </div>
                 </Link>
