@@ -252,4 +252,5 @@ Hirely/
 
 ## License
 
-MIT
+Aryan Srivastava
+
