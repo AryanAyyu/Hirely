@@ -88,7 +88,7 @@ npm install
 
 3. Create a `.env` file in the frontend directory (copy from `.env.example`):
 ```bash
-
+  cd .env
 ```
 
 4. Edit the `.env` file if needed (defaults work for local development):
@@ -252,4 +252,5 @@ Hirely/
 
 ## License
 
-MIT
+Aryan Srivastava
+
