@@ -1,0 +1,66 @@
+# -------------------------------
+# Node.js
+# -------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# -------------------------------
+# Environment Variables
+# -------------------------------
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# -------------------------------
+# Logs
+# -------------------------------
+logs
+*.log
+logger.log
+
+# -------------------------------
+# Build Output
+# -------------------------------
+dist/
+build/
+out/
+temp/
+
+# -------------------------------
+# IDE / Editor Files
+# -------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------------
+# OS System Files
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Vite Specific
+# -------------------------------
+.cache/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# -------------------------------
+# Tailwind CSS
+# -------------------------------
+.pnp.*
+.pnp
+
+# -------------------------------
+# Uploads (Optional)
+# Uncomment if you store uploaded files locally
+# uploads/
